@@ -1,3 +1,32 @@
+body {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+section {
+    font-size: larger;
+}
+.button {
+    background-color: #106080;
+    color: white;
+    border-radius: 5px;
+}
+.learnMore {
+    text-decoration: none;
+}
 .smallCaps {
     font-variant: small-caps;
+}
+#references {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#references li {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#references li a {
+    text-decoration: none;
+    font-size: 120%;
 }
