@@ -6,12 +6,39 @@ body {
     font-size: 135%;
 }
 header {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.ease {
+    font-family: 'Pacifico', cursive;
+    font-size: 230%;
+}
+.color {
+    color: #33475B;
+}
+.headings {
+    font-family: 'Zilla Slab', serif;
+    font-size: 180%;
+}
+#hopeDBest {
+    font-family: 'Pacifico', cursive;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 .button {
+    width: 50%;
     background-color: #106080;
-    color: white;
     border-radius: 5px;
+    padding: 8px 20px 10px 20px;
+}
+article {
+    margin-bottom: 100px;
+}
+.button a {
+    color: #FFFFFF;
+    font-size: 90%;
 }
 .learnMore {
     text-decoration: none;
