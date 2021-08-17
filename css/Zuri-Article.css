@@ -22,6 +22,14 @@ header {
     font-family: 'Zilla Slab', serif;
     font-size: 180%;
 }
+.sub {
+    font-size: 150%;
+    margin-bottom: 5px;
+}
+/* #figma {
+    color: #2e2eff;
+    text-decoration: none;
+} */
 #hopeDBest {
     font-family: 'Pacifico', cursive;
     margin-top: 20%;
