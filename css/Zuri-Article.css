@@ -14,7 +14,7 @@ header {
 iframe {
     width: 100%;
     height: auto;
-    min-height: ;
+    min-height: 169px;
 }
 .ease {
     font-family: 'Pacifico', cursive;
