@@ -1,15 +1,20 @@
 body {
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 135%;
+    font-size: 100%;
 }
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
+}
+iframe {
+    width: 100%;
+    height: auto;
+    min-height: ;
 }
 .ease {
     font-family: 'Pacifico', cursive;
@@ -75,4 +80,11 @@ article {
 footer a{
     color: black;
     font-size: 90%;
+}
+@media screen and (min-width: 670px) {
+    body {
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 135%;
+    }
 }
