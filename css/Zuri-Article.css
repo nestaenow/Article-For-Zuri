@@ -1,7 +1,6 @@
 body {
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0% 10% 10% 10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 100%;
 }
@@ -32,7 +31,7 @@ iframe {
     margin-bottom: 5px;
 }
 cite {
-    font-weight: 200;
+    font-weight: 100;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -52,7 +51,7 @@ cite {
     padding: 8px 20px 10px 20px;
 }
 article {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .button a {
     color: #FFFFFF;
@@ -69,9 +68,9 @@ article {
     justify-content: center;
     list-style: none;
 }
-#references li {
-    margin-left: 10%;
-    margin-right: 10%;
+#references a {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 #references li a {
     text-decoration: none;
@@ -80,6 +79,10 @@ article {
 footer a{
     color: black;
     font-size: 90%;
+}
+img {
+    width: 4em;
+    height: auto;
 }
 
 @media screen and (min-width: 600px) {
@@ -97,8 +100,34 @@ footer a{
 
 @media screen and (min-width: 670px) {
     body {
-        margin-left: 30%;
-        margin-right: 30%;
+        /* margin-left: 30%;
+        margin-right: 30%; */
         font-size: 135%;
+        margin-bottom: 50px;
     }
+
+    .article {
+        font-size: .8em;
+    }
+
+    #video-article {
+        display: flex;
+        margin: 0% 10% 0% 10%;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    #video-article .article {
+        width: 20%;
+        margin: 0% 5% 0% 5%;
+    }
+
+    #references a {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    img {
+    width: 100%;
+    height: auto;
+}
 }
