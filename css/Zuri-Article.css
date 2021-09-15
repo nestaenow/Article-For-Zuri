@@ -81,13 +81,7 @@ footer a{
     color: black;
     font-size: 90%;
 }
-@media screen and (min-width: 670px) {
-    body {
-        margin-left: 30%;
-        margin-right: 30%;
-        font-size: 135%;
-    }
-}
+
 @media screen and (min-width: 600px) {
     body {
         margin-left: 12%;
@@ -98,5 +92,13 @@ footer a{
         width: 100%;
         height: auto;
         min-height: 285px;
+    }
+}
+
+@media screen and (min-width: 670px) {
+    body {
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 135%;
     }
 }
